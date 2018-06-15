@@ -1,0 +1,7 @@
+E:\My Files\Programming\Github\unity-toaster\unity-toaster\unity-native-source\CafebitToaster\CafebitToaster\bin\Debug\CafebitToaster.dll
+E:\My Files\Programming\Github\unity-toaster\unity-toaster\unity-native-source\CafebitToaster\CafebitToaster\bin\Debug\CafebitToaster.pdb
+E:\My Files\Programming\Github\unity-toaster\unity-toaster\unity-native-source\CafebitToaster\CafebitToaster\bin\Debug\UnityEngine.dll
+E:\My Files\Programming\Github\unity-toaster\unity-toaster\unity-native-source\CafebitToaster\CafebitToaster\bin\Debug\UnityEngine.xml
+E:\My Files\Programming\Github\unity-toaster\unity-toaster\unity-native-source\CafebitToaster\CafebitToaster\obj\Debug\CafebitToaster.csprojResolveAssemblyReference.cache
+E:\My Files\Programming\Github\unity-toaster\unity-toaster\unity-native-source\CafebitToaster\CafebitToaster\obj\Debug\CafebitToaster.dll
+E:\My Files\Programming\Github\unity-toaster\unity-toaster\unity-native-source\CafebitToaster\CafebitToaster\obj\Debug\CafebitToaster.pdb

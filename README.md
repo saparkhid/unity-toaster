@@ -18,3 +18,6 @@ C# Code:
 	public void Toast(string message){
 	 Cafebit.AndroidToast.Instance.Toast(message);
 	}
+Regards
+Seyed Ahmad Parkhid
+#Seyed_Ahmad_Parkhid

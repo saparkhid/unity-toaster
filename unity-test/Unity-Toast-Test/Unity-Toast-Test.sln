@@ -1,8 +1,9 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{4F370A07-B993-E8A4-3F1B-EB8E1C74F1F8}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity-Toast-Test", "Assembly-CSharp.csproj", "{4F370A07-B993-E8A4-3F1B-EB8E1C74F1F8}"
 EndProject
-Project("{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{E9413E25-A3A9-3D03-5B34-341363B26060}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity-Toast-Test", "Assembly-CSharp-Editor-firstpass.csproj", "{E9413E25-A3A9-3D03-5B34-341363B26060}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +22,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

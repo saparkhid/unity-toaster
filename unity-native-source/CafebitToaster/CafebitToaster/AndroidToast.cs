@@ -12,7 +12,15 @@ namespace Cafebit
         private static AndroidJavaObject _toastJavaObject;
 
         private static string TOAST_CLASS_IN_JAVA = "ir.cafebit.unitytoaster.CafebitUnityPlugin";
-
+      
+        public enum ToastGravity
+        {
+            Default,
+            TopCenter,
+            TopCorner,
+            Center
+            
+        }
 
         public static AndroidToast Instance
         {
@@ -39,20 +47,41 @@ namespace Cafebit
         #endregion
 
 
-        public void Toast(string msg)
+        public void Toast(string msg, ToastGravity gravity= ToastGravity.Default, float sizeText=18)
         {
             if (Application.platform == RuntimePlatform.Android)
             {
-                _toastJavaObject.Call("Toast", msg);
+                string strgravity = "default";
+                if(gravity== ToastGravity.Default) strgravity = "default";
+                if (gravity == ToastGravity.TopCenter) strgravity = "topcenter";
+                if (gravity == ToastGravity.TopCorner) strgravity = "topcorner";
+                if (gravity == ToastGravity.Center) strgravity = "center";
+                
+                _toastJavaObject.Call("Toast", msg, strgravity, sizeText);
             }
 
         }
 
-        public void ToastLong(string msg)
+        public void ToastLong(string msg, ToastGravity gravity = ToastGravity.Default,float sizeText=18)
         {
             if (Application.platform == RuntimePlatform.Android)
             {
-                _toastJavaObject.Call("ToastLong", msg);
+                string strgravity = "default";
+                if (gravity == ToastGravity.Default) strgravity = "default";
+                if (gravity == ToastGravity.TopCenter) strgravity = "topcenter";
+                if (gravity == ToastGravity.TopCorner) strgravity = "topcorner";
+                if (gravity == ToastGravity.Center) strgravity = "center";
+               
+
+                _toastJavaObject.Call("ToastLong", msg, strgravity, sizeText);
+            }
+        }
+
+        public void CancelToast()
+        {
+            if (Application.platform == RuntimePlatform.Android)
+            {
+                _toastJavaObject.Call("CancelToast");
             }
         }
     }

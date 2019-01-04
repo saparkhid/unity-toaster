@@ -14,6 +14,22 @@ public class TestScript : MonoBehaviour {
 		
 	}
 	public void Toast(string message){
-	 Cafebit.AndroidToast.Instance.Toast(message);
+	    Cafebit.AndroidToast.Instance.Toast(message);
 	}
+    public void ToastTopCenter(string message)
+    {
+        Cafebit.AndroidToast.Instance.Toast(message,Cafebit.AndroidToast.ToastGravity.TopCenter);
+    }
+    public void ToastTopCorner(string message)
+    {
+        Cafebit.AndroidToast.Instance.Toast(message, Cafebit.AndroidToast.ToastGravity.TopCorner);
+    }
+    public void ToastCenter(string message)
+    {
+        Cafebit.AndroidToast.Instance.Toast(message, Cafebit.AndroidToast.ToastGravity.Center);
+    }
+    public void ToastCancel(string message)
+    {
+        Cafebit.AndroidToast.Instance.CancelToast();
+    }
 }

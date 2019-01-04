@@ -5,3 +5,11 @@ E:\My Files\Programming\Github\unity-toaster\unity-toaster\unity-native-source\C
 E:\My Files\Programming\Github\unity-toaster\unity-toaster\unity-native-source\CafebitToaster\CafebitToaster\obj\Debug\CafebitToaster.csprojResolveAssemblyReference.cache
 E:\My Files\Programming\Github\unity-toaster\unity-toaster\unity-native-source\CafebitToaster\CafebitToaster\obj\Debug\CafebitToaster.dll
 E:\My Files\Programming\Github\unity-toaster\unity-toaster\unity-native-source\CafebitToaster\CafebitToaster\obj\Debug\CafebitToaster.pdb
+D:\My Files\Programming\Github\unity-toaster\unity-toaster\unity-native-source\CafebitToaster\CafebitToaster\bin\Debug\CafebitToaster.dll
+D:\My Files\Programming\Github\unity-toaster\unity-toaster\unity-native-source\CafebitToaster\CafebitToaster\bin\Debug\CafebitToaster.pdb
+D:\My Files\Programming\Github\unity-toaster\unity-toaster\unity-native-source\CafebitToaster\CafebitToaster\bin\Debug\UnityEngine.dll
+D:\My Files\Programming\Github\unity-toaster\unity-toaster\unity-native-source\CafebitToaster\CafebitToaster\bin\Debug\UnityEngine.xml
+D:\My Files\Programming\Github\unity-toaster\unity-toaster\unity-native-source\CafebitToaster\CafebitToaster\obj\Debug\CafebitToaster.csproj.CoreCompileInputs.cache
+D:\My Files\Programming\Github\unity-toaster\unity-toaster\unity-native-source\CafebitToaster\CafebitToaster\obj\Debug\CafebitToaster.csproj.CopyComplete
+D:\My Files\Programming\Github\unity-toaster\unity-toaster\unity-native-source\CafebitToaster\CafebitToaster\obj\Debug\CafebitToaster.dll
+D:\My Files\Programming\Github\unity-toaster\unity-toaster\unity-native-source\CafebitToaster\CafebitToaster\obj\Debug\CafebitToaster.pdb

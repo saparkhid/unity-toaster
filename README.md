@@ -17,7 +17,12 @@ C# Code:
 
 	public void Toast(string message){
 	 Cafebit.AndroidToast.Instance.Toast(message);
+	 //toast with textsize=25
+	 Cafebit.AndroidToast.Instance.ToastLong(message,Cafebit.AndroidToast.ToastGravity.Default,25.0f);
+	 //display toast center of screen
+	 Cafebit.AndroidToast.Instance.ToastLong(message,Cafebit.AndroidToast.ToastGravity.Center,);
 	}
+	
 Regards
 Seyed Ahmad Parkhid
 #Seyed_Ahmad_Parkhid
